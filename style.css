@@ -663,21 +663,22 @@ footer .copyright{
     font-size: 16px;
     font-weight: 600;
 }
-#prodetails .single-pro-image{
-    width: 40;
-    margin-right: 60px;
-}
-.small-img-group {
-    display: flex;
-    justify-content: space-between;
-}
-.small-img-col{
-    flex-basis: 12%;
-    cursor: pointer;
-}
 #prodetails{
     display: flex;
-    margin-top: 20px ;
+    margin-top: 30px ;
+}
+#prodetails .single-pro-image{
+    width: 50px ;
+    margin-right: 60px;
+}
+#prodetails .small-img-group {
+    display:flex;
+    justify-content: space-between;
+}
+
+#prodetails .small-img-col{
+    flex-basis: 12%;
+    cursor: pointer;
 }
 
 #prodetails .single-pro-details{
@@ -687,15 +688,15 @@ footer .copyright{
 #prodetails .single-pro-details h4{
     padding: 40px 0 20px 0;
 }
-#pprodetails .single-pro-details h2{
+#prodetails .single-pro-details h2{
     font-size: 26px;
 }
 #prodetails .single-pro-details select{
-    display: block;
+    display: flex;
     padding: 5px 10px;
     margin-bottom: 10px;
 }
-#prodetails.single-pro-details input{
+#prodetails .single-pro-details input{
     width: 50px;
     height: 47px;
     padding-left: 10px;
@@ -713,3 +714,297 @@ footer .copyright{
 #prodetails .single-pro-details span{
     line-height: 25px;
 }
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  .about-us{
+    height: 100vh;
+    width: 100%;
+    padding: 90px 0;
+    background: #ddd;
+  }
+  .pic{
+    height: auto;
+    width:  302px;
+  }
+  .about{
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .text{
+    width: 540px;
+  }
+  .text h2{
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .text h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  span{
+    color: #4070f4;
+  }
+  .text p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  .data{
+    margin-top: 30px;
+  }
+  .Visit {
+    font-size: 18px;
+    background: #4070f4;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  .Visit:hover{
+    background: #000;
+    border: 1px solid #4070f4;
+  }
+
+
+/*card*/
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: rgb(42, 35, 35);
+    font-size: 18px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color:#fff;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+.card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(183, 7, 7);
+  }
+  
+.card button:hover, 
+ a:hover {
+    opacity: 0.7;
+  }
+
+/*contact*/
+
+ #card1 input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+ 
+  #card1 input[type=submit] {
+    background-color: #04AA6D;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  #card1 input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+.container11 {
+    border-radius: 5px;
+    background-color: #c47979;
+    padding: 20px;
+  }
+
+
+/*login*/
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#ff908b;
+    font-family: 'Arial';
+}
+.login{
+        width: 500px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: #465b52;
+        border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: #465b52;
+    padding: 20px;
+}
+label{
+    color: #f3b519;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: black;
+
+
+}
+#log span{
+    color: white;
+    font-size: 14px;
+}
+#login a{
+    float: left;
+    background-color: #f9f9fc;
+}
+
+/*reg*/
+
+*
+{box-sizing: border-box}
+
+.container2 {
+ background: #ff908b;
+  padding: 16px;
+}
+
+
+.container2 input[type=text], 
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.container2 input[type=text]:focus, 
+input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+
+.container2 hr{
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #465b52;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+.registerbtn a {
+  color: #465b52;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+/*FAQ*/
+#bo {
+    text-align: center;
+       width: 600px;
+            overflow: hidden;
+            margin: auto;
+            margin: 20 0 0 450px;
+            padding: 100px;
+            background: #ff908b;
+            border-radius: 15px ;
+    }
+    .faq {
+    width:70%;
+    margin: 0 auto;
+    }
+    .faq div {
+    border: 1px solid #000;
+    margin: 5px 0px;
+    background-color:#fff;
+    }
+    .question {
+    font-size:18px;
+    background-color:#ddd;
+    margin:0px;
+    padding: 15px;
+    }
+    
+    .opener
+    {
+    font-size:25px;
+    float:right;
+    line-height:0.8;
+    cursor: pointer;
+    } 
